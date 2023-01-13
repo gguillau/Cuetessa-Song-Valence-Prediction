@@ -14,6 +14,9 @@ Publicly available datasets can be used for training and testing.
 
 ## Libraries used
 - pandas
-- 
+- numPy
+- matplotlib
+- seaborn
+- sklearn
 - Librosa
-- essentia 
+
