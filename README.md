@@ -13,8 +13,9 @@ Publicly available datasets can be used for training and testing.
 ## Data Description
 
 
-Link to Dataset: 
-https://www.kaggle.com/datasets/imsparsh/deam-mediaeval-dataset-emotional-analysis-in-music 
+[The MediaEval Database for Emotional Analysis of Music (DEAM)](https://www.kaggle.com/datasets/imsparsh/deam-mediaeval-dataset-emotional-analysis-in-music) 
+ consists of 1802 excerpts and full songs annotated with valence and arousal values both continuously (per-second) and over the whole song. The metadata describing the audio excerpts (their duration, genre, folksonomy tags).
+
 
 
 Lyrics dataset found on Kaggle that contains full lyrics and labels of more than 150,000 songs [6]. The label is the Spotify valence attribute, ranging from 0 to 1. It describes the musical positiveness conveyed by a track. Tracks with high valence sound more positive (happy, cheerful), while tracks with low valence sound more negative (sad, depressed).
