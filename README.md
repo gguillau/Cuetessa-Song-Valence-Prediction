@@ -2,7 +2,7 @@
 
 ## Objective
 
-Valence describes the musical positiveness of a track, e.g. ranging from sad/depressed to happy/cheerful.  An automatic method of classifying the valence of pop songs is useful for playlist curation and other applications.  The aim of this task is to develop a Python-based module to predict the valence of newly released pop songs.  
+Valence describes the musical positiveness of a track, e.g. ranging from sad/depressed to happy/cheerful.  An automatic method of classifying the valence of pop songs is useful for playlist curation and other applications.  The aim of this task is to develop a Python-based module for the startup company Cuetessa,inc., in order to predict the valence of newly released pop songs.  
 
 - Two approaches are to use as input: 
   - 1) the audio data (e.g., .wav files) of songs and 
@@ -28,4 +28,13 @@ average and standard deviation of arousal and valence continuous annotation for 
 - seaborn
 - sklearn
 - Librosa
+
+## Models Evaluated
+- Support Vector Regressor
+- RandomForestRegressor
+- KNeighborsRegressor
+- XGBRegressor
+- CatBoostRegressor
+- LGBMRegressor
+
 
