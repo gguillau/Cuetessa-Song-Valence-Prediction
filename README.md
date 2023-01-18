@@ -12,13 +12,13 @@ Publicly available datasets can be used for training and testing.
 
 ## Data Description
 
+DEAM dataset (DEAM dataset - The MediaEval Database for Emotional Analysis of Music) consists of 1802 excerpts and full songs annotated with valence and arousal values both continuously (per-second) and over the whole song. The metadata describing the audio excerpts (their duration, genre, folksonomy tags).
 
-[The MediaEval Database for Emotional Analysis of Music (DEAM)](https://www.kaggle.com/datasets/imsparsh/deam-mediaeval-dataset-emotional-analysis-in-music) 
- consists of 1802 excerpts and full songs annotated with valence and arousal values both continuously (per-second) and over the whole song. The metadata describing the audio excerpts (their duration, genre, folksonomy tags).
-
-
-
-Lyrics dataset found on Kaggle that contains full lyrics and labels of more than 150,000 songs [6]. The label is the Spotify valence attribute, ranging from 0 to 1. It describes the musical positiveness conveyed by a track. Tracks with high valence sound more positive (happy, cheerful), while tracks with low valence sound more negative (sad, depressed).
+- Annotations Data: The annotated [dataset](http://cvml.unige.ch/databases/emoMusic/) comes from Soleymani et al. (2013 . It consists of 45-s clips of 744 songs from the [Free Music Archive](https://freemusicarchive.org/) that span a variety of popular genres
+    - Annotations are made available in csv format. There are six csv files in this database, four containing
+average and standard deviation of arousal and valence continuous annotation for each song.
+- Metadata: 
+    - including, song title, genre and artist is also provided.
 
 
 ## Libraries used
