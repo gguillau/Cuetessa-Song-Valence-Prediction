@@ -2,23 +2,30 @@
 
 ## Objective
 
-Valence describes the musical positiveness of a track, e.g. ranging from sad/depressed to happy/cheerful.  An automatic method of classifying the valence of pop songs is useful for playlist curation and other applications.  The aim of this task is to develop a Python-based module for the startup company Cuetessa,inc., in order to predict the valence of newly released pop songs.  
+Valence describes the musical positiveness of a track, e.g. ranging from sad/depressed to happy/cheerful.  An automatic method of classifying the valence of pop songs is useful for playlist curation and other applications.  The aim of this task is to develop a Python-based module to predict the valence of newly released pop songs. 
 
-- Two approaches are to use as input: 
-  - 1) the audio data (e.g., .wav files) of songs and 
-  - 2) the lyrics of songs.  
- 
-Publicly available datasets can be used for training and testing. 
+Two approaches are to use as input:
+  - the audio data (e.g., .wav files) of songs 
+- Regression model trained using  audio features extracted from audio files
+The lyrics of songs. 
+  - Bidirectional Encoder Representations from Transformers (BERT) model to predict valence from lyrics
+
+Publicly available datasets can be used for training and testing
 
 ## Data Description
 
-DEAM dataset (DEAM dataset - The MediaEval Database for Emotional Analysis of Music) consists of 1802 excerpts and full songs annotated with valence and arousal values both continuously (per-second) and over the whole song. The metadata describing the audio excerpts (their duration, genre, folksonomy tags).
+Lyrics dataset on Kaggle that contains:
+- full lyrics and labels of more than 150,000 songs 
+- The label is the Spotify valence attribute, ranging from 0 to 1.
+  - It describes the musical positiveness conveyed by a track. 
 
-- Annotations Data: The annotated [dataset](http://cvml.unige.ch/databases/emoMusic/) comes from Soleymani et al. (2013 . It consists of 45-s clips of 744 songs from the [Free Music Archive](https://freemusicarchive.org/) that span a variety of popular genres
-    - Annotations are made available in csv format. There are six csv files in this database, four containing
-average and standard deviation of arousal and valence continuous annotation for each song.
-- Metadata: 
-    - including, song title, genre and artist is also provided.
+Tracks with high valence sound more positive (happy, cheerful), while tracks with low valence sound more negative (sad, depressed). Music attributes such as (tempo, danceability,loudness,etc) extracted and added  to original dataset using Spotify’s Web API for Developers. 
+- Spotify's Web API can extract relevant song data from the Spotify music catalog
+
+Due to lack of sufficient resources and the scale of this project:
+- Sample of 500 songs taken from original dataset
+- Audio previews for respective songs extracted for feature extraction
+
 
 
 ## Libraries used
@@ -26,6 +33,8 @@ average and standard deviation of arousal and valence continuous annotation for 
 - numPy
 - matplotlib
 - seaborn
+- spotipy
+- transformers
 - sklearn
 - Librosa
 
