@@ -10,6 +10,10 @@ Two approaches are to use as input:
 The lyrics of songs. 
   - Bidirectional Encoder Representations from Transformers (BERT) model to predict valence from lyrics
 
+Due to lack of sufficient resources and the scale of this project:
+- Sample of 500 songs taken from original dataset
+- Audio previews for respective songs extracted for feature extraction
+
 Publicly available datasets can be used for training and testing
 
 ## Data Description
@@ -21,10 +25,6 @@ Lyrics dataset on Kaggle that contains:
 
 Tracks with high valence sound more positive (happy, cheerful), while tracks with low valence sound more negative (sad, depressed). Music attributes such as (tempo, danceability,loudness,etc) extracted and added  to original dataset using Spotify’s Web API for Developers. 
 - Spotify's Web API can extract relevant song data from the Spotify music catalog
-
-Due to lack of sufficient resources and the scale of this project:
-- Sample of 500 songs taken from original dataset
-- Audio previews for respective songs extracted for feature extraction
 
 
 
