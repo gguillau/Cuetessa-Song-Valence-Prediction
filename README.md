@@ -18,7 +18,7 @@ Publicly available datasets can be used for training and testing
 
 ## Data Description
 
-Lyrics dataset on Kaggle that contains:
+[Lyrics dataset on Kaggle](https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence?resource=download) that contains:
 - full lyrics and labels of more than 150,000 songs 
 - The label is the Spotify valence attribute, ranging from 0 to 1.
   - It describes the musical positiveness conveyed by a track. 
