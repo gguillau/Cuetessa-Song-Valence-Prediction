@@ -26,7 +26,7 @@ Due to lack of sufficient resources and the scale of this project:
 - Music attributes such as (tempo, danceability,loudness,etc) extracted and added  to original dataset using Spotify’s Web API for Developers. 
   - Spotify's Web API can extract relevant song data from the Spotify music catalog
 
-
+![alt text](https://github.com/giova22i/Data-Science-Portfolio/blob/main/images/correlation.png?raw=true)
 
 ## Libraries used
 - pandas
