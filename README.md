@@ -7,9 +7,9 @@ Valence describes the musical positiveness of a track, e.g. ranging from sad/dep
 
 Two approaches are to use as input:
   - the audio data (e.g., .wav files) of songs 
-- Regression model trained using  audio features extracted from audio files
-The lyrics of songs. 
-  - Bidirectional Encoder Representations from Transformers (BERT) model to predict valence from lyrics
+    - Regression model trained using  audio features extracted from audio files
+  - The lyrics of songs. 
+     - Bidirectional Encoder Representations from Transformers (BERT) model to predict valence from lyrics
 
 Due to lack of sufficient resources and the scale of this project:
 - Sample of 500 songs taken from original dataset
