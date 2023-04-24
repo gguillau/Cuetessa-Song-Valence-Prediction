@@ -48,8 +48,6 @@ Due to lack of sufficient resources and the scale of this project:
 
 ## Insights
 
-Insights
-
 - Further training the model based on such dataset and assess if val_MAE is improving.
 - Using the valence predicted by the CNN and the valence probability predicted for the songs’ lyrics by an NLP model as inputs to train a linear regression mixed model.
 - Genre classification can also be completed using CNN
