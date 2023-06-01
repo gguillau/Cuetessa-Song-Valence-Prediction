@@ -1,4 +1,4 @@
-# Practicum Task for Cuetessa, Inc. – Predicting Valence of Pop Songs
+# Task for Cuetessa, Inc. – Predicting Valence of Pop Songs
 
 ## Objective
 
