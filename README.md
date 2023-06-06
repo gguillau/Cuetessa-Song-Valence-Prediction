@@ -29,22 +29,22 @@ Due to lack of sufficient resources and the scale of this project:
 ![alt text](https://github.com/giova22i/Data-Science-Portfolio/blob/main/images/correlation.png)
 
 ## Libraries used
-- pandas
-- numPy
-- matplotlib
-- seaborn
-- spotipy
-- transformers
-- sklearn
-- Librosa
+    - pandas
+    - numPy
+    - matplotlib
+    - seaborn
+    - spotipy
+    - transformers
+    - sklearn
+    - Librosa
 
 ## Models Evaluated
-- Support Vector Regressor
-- RandomForestRegressor
-- KNeighborsRegressor
-- XGBRegressor
-- CatBoostRegressor
-- LGBMRegressor
+    - Support Vector Regressor
+    - RandomForestRegressor
+    - KNeighborsRegressor
+    - XGBRegressor
+    - CatBoostRegressor
+    - LGBMRegressor
 
 ## Insights
 
